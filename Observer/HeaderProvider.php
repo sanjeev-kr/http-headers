@@ -104,7 +104,7 @@ class HeaderProvider implements \Magento\Framework\Event\ObserverInterface
 
         if(is_array($headers))
         {
-            $scp = "" ;
+            $scp = null ;
             
             if(isset($headers["Content-Security-Policy"]) && !empty($headers["Content-Security-Policy"])
 
@@ -120,7 +120,7 @@ class HeaderProvider implements \Magento\Framework\Event\ObserverInterface
                 unset($headers["Content-Security-Policy"]);
             }
 
-            if(!empty($response))
+            if(!empty($scp))
             {
                 $response->setHeader("Content-Security-Policy", $scp);
             }
