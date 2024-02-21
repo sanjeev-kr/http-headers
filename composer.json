@@ -1,0 +1,20 @@
+{
+  "name": "sanjeev-kr/http-headers",
+  "description": "magento 2 extension to add http custom headers.",
+  "version": "2.0.0",
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "type": "magento2-module",
+  "license": [
+    "Apache-2.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sanjeev\\HttpHeaders\\": ""
+    }
+  }
+}

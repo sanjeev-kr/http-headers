@@ -1,0 +1,17 @@
+{
+"Content-Security-Policy": {
+    "font-src" : "*.googleapis.com *.gstatic.com *.cloudflare.com *.cloudfront.net *.livechatinc.com *.resultspage.com *.twitter.com *.typekit.net *.twimg.com *.font-src.com *.bootstrapcdn.com  bat.bing.com *.fontawesome.com klarna.com *.klarna.com *.klarnacdn.net *.klarnaevt.com data: 'self' 'unsafe-inline';",
+
+    "img-src" :"img-src www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net www.google.com bid.g.doubleclick.net analytics.google.com www.googletagmanager.com t.paypal.com www.paypal.com www.paypalobjects.com fpdbs.paypal.com fpdbs.sandbox.paypal.com *.cloudfront.net *.vimeocdn.com i.ytimg.com *.youtube.com validator.swagger.io www.sandbox.paypal.com b.stats.paypal.com dub.stats.paypal.com assets.braintreegateway.com c.paypal.com checkout.paypal.com *.paypal.com *.googleapis.com *.gstatic.com *.cloudflare.com *.klarna.com *.googleadservices.com *.google-analytics.com *.twitter.com *.twimg.com *.ytimg.com data: 'self' 'unsafe-inline';",
+
+    "script-src" : " *.adobe.com www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net analytics.google.com www.googletagmanager.com www.paypal.com www.sandbox.paypal.com www.paypalobjects.com t.paypal.com s.ytimg.com *.cloudfront.net  www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com *.youtube.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ js.braintreegateway.com assets.braintreegateway.com c.paypal.com pay.google.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.paypal.com *.googleapis.com *.gstatic.com *.cloudflare.com *.twitter.com *.google-analytics.com *.googleadservices.com *.google.com *.twimg.com *.trustedshops.com *.usercentrics.eu *.fontawesome.com *.paypalobjects.com *.cardinalcommerce.com *.zopim.com *.googletagmanager.com *.facebook.net *.doubleclick.net *.bing.com *.newrelic.com *.google.co.in use.typekit.net klarna.com *.klarna.com *.klarnacdn.net *.klarnaevt.com data: 'self' 'unsafe-inline' 'unsafe-eval';",
+    "object-src": "'self' 'unsafe-inline';",
+    "media-src": "*.adobe.com 'self' 'unsafe-inline';",
+    "manifest-src": "'self' 'unsafe-inline';",
+    "default-src" : "* data: 'self' 'unsafe-eval' 'unsafe-inline'"
+},
+
+"Strict-Transport-Security":"max-age=31536000; includeSubDomains",
+"Referrer-Policy":"strict-origin-when-cross-origin"
+
+}
